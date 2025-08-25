@@ -1,0 +1,19 @@
+# === Python (server/) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+*.sqlite3
+*.db
+*.log
+
+# Root virtual environment
+.venv/
+
+# === IDE / OS ===
+.vscode/
+
+.env
