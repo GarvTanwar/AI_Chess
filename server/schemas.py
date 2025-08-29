@@ -51,7 +51,7 @@ class moveOut(BaseModel):
     user: Optional[moveSideOut] = None
     bot: Optional[moveSideOut] = None
     fen: str
-    png: str
+    pgn: str
     status: Status
     clocks: Optional[clock] = None
 
